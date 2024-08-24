@@ -1,5 +1,6 @@
-let tg = window.Telegram.WebApp;
-let user_name = tg.initDataUnsafe.user.first_name;
+//let tg = window.Telegram.WebApp;
+//let user_name = tg.initDataUnsafe.user.first_name;
+let user_name = 'Turonbek';
 let user_inf = 0;
 let used = false;
 
