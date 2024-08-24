@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.hidden {
+    display: none;
+}
+.center {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.container3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#UserInf {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+#target_container {
+    width: 300px;
+    height: 30px;
+    border: 2px solid gray;
+    background-color: palegoldenrod;
+    margin-top: 27px;
+    border-radius: 30px;
+}
+#target {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20px;
+    height: 30px;
+    background-color: gold;
+    border-radius: 30px;
+    transition: width 0.5s ease;
+}
+#animals {
+    display: grid;
+    background-color:darkgray;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 500px;
+    width: 552px;
+}
+#Magzine {
+    display: grid;
+    gap:20px;
+    background-color:darkgray;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid black;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 500px;
+    width: 552px;
+}
+  
+#Magzine #product {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+    height: 260px;
+}
+  
+  #Magzine #product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #Magzine #product h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  
+  #Magzine #product p {
+    margin-bottom: 15px;
+  }
+  
+  #Magzine #product button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #Magzine #product button:hover {
+    background-color: #0056b3;
+  }
+  
+#menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 300px;
+}
+@media (max-width: 768px) {
+    .container {
+        display: block;
+    }
+    .container2 {
+        margin-top: 10px;
+        display: block;
+        justify-content: center;
+    }
+    .container3 {
+        margin-left: 180px;
+    }
+}
